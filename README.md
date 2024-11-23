@@ -1,3 +1,4 @@
+
 # Proyecto ASIX
 
 Este es un proyecto desarrollado con tecnologías web, diseñado para gestionar información y valoraciones, con funcionalidades implementadas en HTML, CSS, JavaScript, PHP y bases de datos SQL.
@@ -55,3 +56,48 @@ Para ejecutar este proyecto, necesitas lo siguiente:
 ```bash
 git clone https://github.com/usuario/project_asix.git
 cd project_asix
+```
+
+### **2. Configurar el entorno**
+- **Base de datos:** Importa el archivo `Valoraciones.sql` en tu sistema MySQL:
+  ```bash
+  mysql -u usuario -p base_datos < Valoraciones.sql
+  ```
+- **Servidor web:** Asegúrate de que el proyecto está ubicado en el directorio raíz de tu servidor web.
+
+### **3. Configuración adicional**
+Configura los archivos PHP para conectar la base de datos, ajustando las credenciales según tu entorno.
+
+---
+
+## **Uso**
+
+1. Accede al proyecto desde tu navegador utilizando la URL del servidor web.
+2. Navega por las páginas principales:
+   - **`Index.html`**: Página inicial.
+   - **`Principal.html`**: Página para gestionar funcionalidades específicas.
+3. Ingresa y gestiona datos mediante las funcionalidades provistas.
+
+---
+
+## **Contribuir**
+
+Si deseas contribuir al desarrollo de este proyecto, sigue los pasos a continuación:
+
+1. Haz un fork del repositorio.
+2. Crea una rama nueva para tus cambios:  
+   ```bash
+   git checkout -b mi-nueva-funcionalidad
+   ```
+3. Realiza tus modificaciones y súbelas al repositorio.
+4. Abre un pull request describiendo tus cambios.
+
+---
+
+## **Licencia**
+
+Este proyecto está licenciado bajo la **Licencia MIT**. Consulta el archivo `LICENSE` para más detalles.
+
+---
+
+**Hecho por Ikerm01 .**
