@@ -16,7 +16,7 @@ BEGIN
         WHERE TABLE_SCHEMA = nomdb AND TABLE_NAME = nomtaula ORDER BY COLUMN_NAME;
 
     -- Handler per quan no hi ha més files al cursor
-    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;
+    DECLARE CONTINUE HANDLER FOR NOT FOUND SET fi = 1;
 
     -- Obrim el cursor
     OPEN columnes_cursor;
